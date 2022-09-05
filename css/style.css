@@ -264,7 +264,7 @@ footer {
     align-items: center;
 }
 
-.social-icons {
+.social-icons a {
     margin-top: 10px;
     color: white;
     font-size: 20px;
