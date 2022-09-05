@@ -20,6 +20,7 @@
     background-color: rgba(211, 211, 211, 0.425);
 }
 
+
 /* button */
 .button-small {
     padding: 8px 15px;
@@ -65,7 +66,7 @@ header{
 
 .nav-list ul li {
     display: inline-block;
-    margin-left: 1.5rem;   
+    margin-left: 3rem;   
 }
 
 .nav-list ul a {
@@ -98,8 +99,7 @@ header{
 
 .header-txt {
     width: 60%;
-    min-height: 350px;
-    margin: 40px auto;
+    margin: 100px auto;
     text-align: center;
     color: white;
 }
@@ -107,13 +107,13 @@ header{
 .header-txt h1 {
     font-size: 4rem;
     padding-top: 50px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
 
 .header-txt p {
     font-size: 1.5rem;
-    line-height: 1.8rem;
-    margin-bottom: 30px;
+    line-height: 2.5rem;
+    margin-bottom: 50px;
 }
 
 /* main  */
