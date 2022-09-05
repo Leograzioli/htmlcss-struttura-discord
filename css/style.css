@@ -123,25 +123,52 @@ header{
 }
 
 .photo-section {
-    width: 65%;
-    height: 450px;
-    background-color: rgb(0, 81, 255);
+    width: 60%;
+    height: 800px;
+    align-items: center;
+}
+
+.photo-section img {
+    width: 90%;
 }
 
 .text-section {
-    width: 35%;
-    height: 450px;
-    background-color: rgb(219, 127, 241);
+    width: 40%;
+    height: 800px;
+}
+.text-section h2 {
+    font-size: 4rem;
+    margin-top: 180px;
+    margin-bottom: 40px;
 }
 
-.fborder {
+.text-section p {
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+
+.fb-order {
     order: 1;
 }
 
-.green-square {
-    height: 700px;
-    background-color: green;
-    padding: 40p
+.bigger-section {
+    padding: 80px;
+}
+
+.bigger-section h2 {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.bigger-section p {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.bigimg img {
+    width: 100%;
 }
 
 /* footer  */
