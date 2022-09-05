@@ -251,8 +251,9 @@ footer {
     margin-bottom: 20px;
 }
 
-.footer-link ul li {
+.footer-link ul li a {
     margin-bottom: 20px;
+    line-height: 3rem;
     font-size: 1.3rem;
     color:white;
 }
