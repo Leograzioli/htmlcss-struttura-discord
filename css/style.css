@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
 /* common */
 
 .container {
@@ -60,7 +64,7 @@ header{
     margin-left: 250px;
 }
 
-.nav-list ul {
+ul {
     list-style-type: none;
 }
 
@@ -187,38 +191,68 @@ header{
 
 
 /* footer  */
+
 footer {
-    background-color: rgb(19, 19, 19);
+    background-color: rgb(31, 31, 31);
+    padding-bottom: 40px;
 }
 
 .footer-upper {
-    padding-top: 20px;
-    padding-bottom: 40px
+    padding-top: 100px;
+    padding-bottom: 80px
 }
 
 .social {
-    width: 30%;
+    width: 20%;
     height: 450px;
-    background-color: indianred;
+}
+
+.social h3 {
+    font-size: 2.2rem;
+    color: #7289da;
+}
+
+.social img {
+    margin-top: 20px;
+    height: 15px;
+    vertical-align: center;
+}
+
+.social span {
+    color: white;
+    margin-left: 5px;
 }
 
 .footer-link {
     width: 20%;
     height: 450px;
-    background-color: mediumaquamarine;
-    border: 1px dashed rgb(255, 255, 255);
+}
+
+.footer-link h4 {
+    color: #7289da;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.footer-link ul li {
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    color:white;
 }
 
 .footer-bottom {
     height: 60px;
-    background-color: aquamarine;
-    margin-top: 20px;
+    border-top: 1px solid #7289da;
     justify-content: space-between;
     align-items: center;
 }
 
-.footer-bottom span {
-    background-color: indianred;
-    padding: 5px;
+.social-icons {
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
 }
 
+.social i {
+    margin-right: 20px;
+}
