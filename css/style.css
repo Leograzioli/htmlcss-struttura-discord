@@ -51,7 +51,7 @@ header{
 }
 
 /* main  */
-.bgcollor {
+.bg-gray {
     background-color: rgba(211, 211, 211, 0.425);
 }
 
@@ -79,5 +79,41 @@ header{
     height: 700px;
     background-color: green;
     padding: 40p
+}
+
+/* footer  */
+footer {
+    background-color: rgb(19, 19, 19);
+}
+
+.footer-upper {
+    padding-top: 20px;
+    padding-bottom: 40px
+}
+
+.social {
+    width: 30%;
+    height: 380px;
+    background-color: indianred;
+}
+
+.footer-link {
+    width: 20%;
+    height: 380px;
+    background-color: mediumaquamarine;
+    border: 1px dashed rgb(255, 255, 255);
+}
+
+.footer-bottom {
+    height: 60px;
+    background-color: aquamarine;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom span {
+    background-color: indianred;
+    padding: 5px;
 }
 
