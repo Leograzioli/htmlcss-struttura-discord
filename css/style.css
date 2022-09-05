@@ -10,6 +10,10 @@ html {
 
 /* common */
 
+a {
+    text-decoration: none;
+}
+
 .container {
     width: 75%;
     margin: 0 auto;
@@ -37,29 +41,29 @@ html {
 
 
 /* button */
-.button-small {
+.button-small a{
     padding: 8px 15px;
     border-radius: 20px;
 }
 
-.button {
+.button a{
     margin-left: 20px;
     padding: 15px 20px;
     border-radius: 40px;
     font-size: 1.2rem;
 }
 
-.bt-black {
+.bt-black a {
     background-color: black;
     color: white;
 }
 
-.bt-white {
+.bt-white a{
     background-color: white;
     color: black;
 }
 
-.bt-violet {
+.bt-violet a {
     background-color: #7289da;
     color: white;
 }
@@ -87,6 +91,7 @@ ul {
 .nav-list ul a {
     text-decoration: none;
     color: white;
+    line-height: 1.2rem;
 }
 
 .nav-list {
@@ -214,7 +219,7 @@ footer {
 
 .social {
     width: 20%;
-    height: 450px;
+    margin-right: 40px;
 }
 
 .social h3 {
@@ -225,12 +230,14 @@ footer {
 .social img {
     margin-top: 20px;
     height: 15px;
-    vertical-align: center;
+  
 }
 
 .social span {
     color: white;
     margin-left: 5px;
+    line-height: 30px;
+    vertical-align: middle;
 }
 
 .footer-link {
@@ -265,4 +272,8 @@ footer {
 
 .social i {
     margin-right: 20px;
+}
+
+.arrowdown {
+    font-size: 10px;
 }
