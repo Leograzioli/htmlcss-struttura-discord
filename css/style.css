@@ -60,14 +60,14 @@ header{
 }
 
 .photo-section {
-    width: 60%;
-    height: 380px;
+    width: 65%;
+    height: 450px;
     background-color: rgb(0, 81, 255);
 }
 
 .text-section {
-    width: 40%;
-    height: 380px;
+    width: 35%;
+    height: 450px;
     background-color: rgb(219, 127, 241);
 }
 
@@ -93,13 +93,13 @@ footer {
 
 .social {
     width: 30%;
-    height: 380px;
+    height: 450px;
     background-color: indianred;
 }
 
 .footer-link {
     width: 20%;
-    height: 380px;
+    height: 450px;
     background-color: mediumaquamarine;
     border: 1px dashed rgb(255, 255, 255);
 }
